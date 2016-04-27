@@ -14,6 +14,7 @@
 #import "CalendarIdentifierViewController.h"
 #import "HidePlaceholderViewController.h"
 #import "ButtonsViewController.h"
+#import "PresentCalendarViewController.h"
 
 @implementation FSTableViewController
 
@@ -30,6 +31,7 @@
                              [DelegateAppearanceViewController class],
                              [FullScreenExampleViewController class],
                              [MultipleSelectionViewController class],
+                             [PresentCalendarViewController class],
                              [NSObject class],
                              [NSObject class],
                              [LoadViewExampleViewController class]

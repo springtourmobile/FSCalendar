@@ -316,6 +316,8 @@
         return self.preferredTitleSelectionColor ?: [self colorForCurrentStateInDictionary:_appearance.titleColors];
     }
     return self.preferredTitleDefaultColor ?: [self colorForCurrentStateInDictionary:_appearance.titleColors];
+    
+    return [UIColor magentaColor];
 }
 
 - (UIColor *)colorForSubtitleLabel
